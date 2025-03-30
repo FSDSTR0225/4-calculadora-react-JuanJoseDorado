@@ -1,0 +1,44 @@
+/* src/components/Calculator.css */
+.calculator {
+  width: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+/* La “pantalla” de la calculadora */
+.display {
+  background-color: #f0f0f0;
+  font-size: 1.6rem;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+/* Teclado */
+.keypad {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.row {
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  flex: 1;
+  padding: 15px;
+  font-size: 1rem;
+  background: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #bbb;
+}
